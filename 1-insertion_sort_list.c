@@ -40,6 +40,7 @@ void insertion_sort_list(listint_t **list)
 
 			if (!tmp->prev)
 				*list = tmp;
+			print_list(*list);
 		}
 	}
 }
