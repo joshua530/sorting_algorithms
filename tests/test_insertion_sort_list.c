@@ -33,10 +33,7 @@ int main()
     print_result(are_equal_int_lists(l2_al, l2_el, 1), "Test #2");
 
     // multiple (all unique items)
-    printf("Original: ");print_list(l3_al);
     insertion_sort_list(&l3_al);
-    printf("Expected: ");print_list(l3_el);
-    printf("Got: ");print_list(l3_al);
     print_result(are_equal_int_lists(l3_al, l3_el, 10), "Test #3");
 
     // multiple (has repeated items)
