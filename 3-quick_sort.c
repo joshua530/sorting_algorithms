@@ -23,7 +23,7 @@ void quicksort(int *array, int lo, int hi, size_t size)
 
 /**
  * partition - divides array into two partitions
- * 
+ *
  * a pivot is created and the array is partitioned into two:
  * the indices less than the pivot and those greater than it
  *
