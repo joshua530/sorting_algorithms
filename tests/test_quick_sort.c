@@ -35,4 +35,16 @@ int main()
     // multiple (has repeated items)
     quick_sort(l5, 7);
     print_result(are_equal_int_arrays(l5, l5_e, 7), "Test #5");
+
+    // with negative length
+    quick_sort(l2, -2);
+    print_result(are_equal_int_arrays(l2, l2, 0), "Test #6");
+
+    // null with +ve length(1)
+    quick_sort(l, 1);
+    print_result(are_equal_int_arrays(l, l_e, 0), "Test #7");
+
+    // null with +ve length(2)
+    quick_sort(l, 2);
+    print_result(are_equal_int_arrays(l, l_e, 0), "Test #8");
 }
