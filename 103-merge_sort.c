@@ -4,7 +4,7 @@
 
 /**
  * print_seg - prints array segment
- * 
+ *
  * @arr: parent array
  * @seg: segment to print
  * @start: starting index
@@ -26,7 +26,7 @@ void print_seg(int *arr, char *seg, size_t start, size_t end)
 }
 /**
  * mergesort - performs merge sort operation
- * 
+ *
  * @array: original array
  * @working_arr: temporary array for holding sorted items
  * @lo: starting index
@@ -68,7 +68,7 @@ void mergesort(int *array, int *working_arr, size_t lo, size_t hi)
 
 /**
  * merge_sort - wrapper for the merge sort function
- * 
+ *
  * @array: array to sort
  * @size: size of array
  */
