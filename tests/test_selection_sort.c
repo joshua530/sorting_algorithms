@@ -30,8 +30,6 @@ int main()
 
     // multiple (all unique items)
     selection_sort(l4, 10);
-    print_array(l4, 10);
-    print_array(l4_e, 10);
     print_result(are_equal_int_arrays(l4, l4_e, 10), "Test #4");
 
     // multiple (has repeated items)
