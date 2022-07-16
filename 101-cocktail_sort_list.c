@@ -4,7 +4,7 @@
 /**
  * cocktail_sort_list - sorts a doubly linked list using the
  * cocktail shaker algorithm
- * 
+ *
  * @list: list to sort
  */
 void cocktail_sort_list(listint_t **list)
@@ -49,7 +49,7 @@ void cocktail_sort_list(listint_t **list)
 
 /**
  * swap_nodes - swaps two nodes
- * 
+ *
  * @a: first node
  * @b: second node
  * @list: parent list of the nodes
